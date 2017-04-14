@@ -1,0 +1,21 @@
+{
+    "name": "ohyang/alipay-php-sdk",
+    "description": "alipay php sdk",
+    "keywords": ["alipay"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "ohyang",
+            "email": "yangqinger@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ohyang\\Alipay\\": "src/"
+        }
+    }
+}

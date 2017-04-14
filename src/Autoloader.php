@@ -14,13 +14,13 @@ class Autoloader{
           $name = strstr($class, '\\', true);
         }
 
-        $filename = __DIR__."/aop/".$name.".php";
+        $filename = __DIR__ . "/aop/" .$name.".php";
         if(is_file($filename)) {
             include $filename;
             return;
         }
 
-        $filename = __DIR__."/aop/request/".$name.".php";
+        $filename = __DIR__ . "/aop/request/" .$name.".php";
         if(is_file($filename)) {
             include $filename;
             return;
